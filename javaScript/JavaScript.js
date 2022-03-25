@@ -60,3 +60,4 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
       }
     }
 });
+

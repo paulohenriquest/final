@@ -30,6 +30,7 @@ h2{
     overflow: hidden;
     white-space: nowrap;
     transition: .3s ease;
+    height: 100vh;
 }
 .nav-side-bar:hover{
     width: 13%;
@@ -328,18 +329,15 @@ hr {
 .meio {
     background: white;
     width: 24%;
-    margin: 15px 0px 0px 15px;
+    margin: 0px 0px 0px 15px;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 .meio p {
     color: darkgray;
-}
-
-.laranja {
-    display: flex;
-    align-items: center;
-    align-content: center;
 }
 
 .laranja i {
@@ -353,4 +351,153 @@ hr {
     border-radius: 100%;
     margin: 10px;
     color: white;
+}
+
+.rosa i {
+    background: rgb(255, 0, 221);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.vermelho i {
+    background: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.verde i {
+    background: green;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.caixas-baixo {
+    display: flex;
+    padding: 8px;
+    color: darkgray;
+}
+
+.caixa-e {
+    background: white;
+    width: 50%;
+    margin: 7.5px;
+}
+
+.caixa-d {
+    background: white;
+    width: 50%;
+    margin: 7.5px;
+}
+
+.colunas {
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.colun {
+    width: 25%;
+}
+
+.recent {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.colun p {
+    border-top: solid 1px;
+    padding: 10px;
+    border-top: 1px solid #CCC;
+}
+
+@media (max-width: 798px) {
+    .caixas {
+        display: block;
+    }
+
+    .caixa {
+        font-size: 12px;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .caixa-2-3 {
+        width: auto;
+        margin-left: auto;
+        margin-top: 15px;
+    }
+
+    .caixa-3 {
+        margin: auto;
+    }
+
+    .linhas-cima {
+        margin: 10px;
+    }
+
+    .linha {
+        margin: auto;
+    }
+
+    .caixas-meio {
+        display: block;
+    }
+
+    .meio {
+        width: auto;
+        margin: 15px;
+    }
+
+    .laranja {
+        margin-top: 15px;
+    }
+
+    .caixas-baixo {
+        display: block;
+    }
+
+    .caixa-e {
+        width: auto;
+    }
+
+    .caixa-d {
+        width: auto;
+    }
+
+    .colunas {
+        font-size: 5px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .colun p {
+        padding: 5px;
+    }
+
+   
 }
